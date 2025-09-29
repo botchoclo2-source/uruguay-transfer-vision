@@ -118,9 +118,11 @@ const Vehicles = () => {
         </div>
 
         <div className="text-center">
-          <Button size="lg" className="bg-primary hover:bg-primary/90">
-            Solicitar cotización personalizada
-          </Button>
+          <a href="#contacto">
+            <Button size="lg" className="bg-primary hover:bg-primary/90">
+              Solicitar cotización personalizada
+            </Button>
+          </a>
         </div>
       </div>
     </section>

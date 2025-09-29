@@ -49,9 +49,11 @@ const Header = () => {
               <Phone className="h-4 w-4" />
               <span>+598 98 904 246</span>
             </div>
-            <Button size="sm" className="bg-primary hover:bg-primary/90">
-              Reservar
-            </Button>
+            <a href="#reservas">
+              <Button size="sm" className="bg-primary hover:bg-primary/90">
+                Reservar
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -83,9 +85,11 @@ const Header = () => {
                 <Phone className="h-4 w-4" />
                 <span>+598 98 904 246</span>
               </div>
-              <Button size="sm" className="w-full mt-2 bg-primary hover:bg-primary/90">
-                Reservar
-              </Button>
+              <a href="#reservas">
+                <Button size="sm" className="w-full mt-2 bg-primary hover:bg-primary/90">
+                  Reservar
+                </Button>
+              </a>
             </div>
           </div>
         </div>

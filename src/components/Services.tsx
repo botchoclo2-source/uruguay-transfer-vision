@@ -49,9 +49,11 @@ const Services = () => {
           </div>
 
           <div className="text-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Consultar servicios corporativos
-            </Button>
+            <a href="#contacto">
+              <Button size="lg" className="bg-primary hover:bg-primary/90">
+                Consultar servicios corporativos
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -86,9 +88,11 @@ const Services = () => {
           </div>
 
           <div className="text-center">
-            <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-white">
-              Explorar destinos privados
-            </Button>
+            <a href="#experiencias">
+              <Button size="lg" variant="outline" className="border-secondary text-secondary hover:bg-secondary hover:text-white">
+                Explorar destinos privados
+              </Button>
+            </a>
           </div>
         </div>
       </section>

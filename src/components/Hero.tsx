@@ -46,21 +46,25 @@ const Hero = () => {
 
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button 
-              size="lg" 
-              className="bg-primary hover:bg-primary/90 text-white border-0 shadow-tourism-lg px-8 py-3 text-lg font-semibold transition-bounce hover:scale-105"
-            >
-              Reservar ahora
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            <a href="#reservas">
+              <Button 
+                size="lg" 
+                className="bg-primary hover:bg-primary/90 text-white border-0 shadow-tourism-lg px-8 py-3 text-lg font-semibold transition-bounce hover:scale-105"
+              >
+                Reservar ahora
+                <ArrowRight className="ml-2 h-5 w-5" />
+              </Button>
+            </a>
             
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="border-white/30 text-white hover:bg-white/10 backdrop-blur-sm px-8 py-3 text-lg font-semibold transition-tourism"
-            >
-              Ver servicios
-            </Button>
+            <a href="#corporativos">
+              <Button 
+                variant="outline" 
+                size="lg"
+                className="border-white bg-white/90 text-foreground hover:bg-white hover:text-foreground backdrop-blur-sm px-8 py-3 text-lg font-semibold transition-tourism"
+              >
+                Ver servicios
+              </Button>
+            </a>
           </div>
 
           {/* Trust Badge */}
@@ -71,12 +75,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/30 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/60 rounded-full mt-2 animate-pulse"></div>
-        </div>
-      </div>
     </section>
   );
 };
