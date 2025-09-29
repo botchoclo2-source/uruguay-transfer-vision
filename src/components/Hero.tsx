@@ -23,23 +23,21 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            Turismo y traslados en{' '}
-            <span className="bg-gradient-to-r from-sunset to-nature bg-clip-text text-transparent">
-              Uruguay y la región
-            </span>
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-8 text-white">
+            Turismo y traslados en Uruguay y la región
           </h1>
           
-          <p className="text-xl sm:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Viajes cómodos, seguros y personalizados para empresas y grupos privados
+          <p className="text-xl sm:text-2xl text-white mb-10 max-w-3xl mx-auto font-medium">
+            Soluciones de transporte profesional para empresas y grupos privados. 
+            Puntualidad, seguridad y confort garantizados.
           </p>
 
           {/* Features */}
-          <div className="flex flex-wrap justify-center gap-6 mb-10">
+          <div className="flex flex-wrap justify-center gap-4 mb-12">
             {features.map((feature, index) => (
-              <div key={index} className="flex items-center space-x-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2">
-                <feature.icon className="h-5 w-5 text-sunset" />
-                <span className="text-sm font-medium">{feature.text}</span>
+              <div key={index} className="flex items-center space-x-2 bg-white/15 backdrop-blur-sm rounded-lg px-6 py-3 border border-white/20">
+                <feature.icon className="h-5 w-5 text-white" />
+                <span className="text-sm font-medium text-white">{feature.text}</span>
               </div>
             ))}
           </div>
